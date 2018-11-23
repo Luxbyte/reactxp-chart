@@ -69,7 +69,7 @@ class App extends RX.Component {
         <RX.View style={_styles.container}>
           <RX.View style={_styles.grid}>
             <RX.View style={chartStyle}>
-              <VictoryChart theme={VictoryTheme.material} domainPadding={10} height={chartSize} width={chartSize} containerComponent={<VictoryContainer responsive={false}/>}>
+              <VictoryChart theme={VictoryTheme.material} domainPadding={10} minDomain={{ y: 0 }} height={chartSize} width={chartSize} containerComponent={<VictoryContainer responsive={false}/>}>
                 <VictoryBar
                   style={{ data: { fill: "tomato", opacity: 0.5 } }}
                   data={sampleData}
