@@ -39,12 +39,12 @@ const _styles = {
 };
 
 const sampleData = [
-  { x: 15, y: 20, label: 1, fill: "red" },
-  { x: 25, y: 30, label: 2, fill: "orange" },
-  { x: 35, y: 65, label: 3, fill: "gold" },
-  { x: 40, y: 50, label: 4, fill: "blue" },
-  { x: 45, y: 40, label: 5, fill: "cyan" },
-  { x: 50, y: 30, label: 6, fill: "green" }
+  { x: 15, y: 20, label: 1 },
+  { x: 25, y: 30, label: 2 },
+  { x: 35, y: 65, label: 3 },
+  { x: 40, y: 50, label: 4 },
+  { x: 45, y: 40, label: 5 },
+  { x: 50, y: 30, label: 6 }
 ]
 
 const sampleData2 = [
@@ -69,9 +69,8 @@ class App extends RX.Component {
         <RX.View style={_styles.container}>
           <RX.View style={_styles.grid}>
             <RX.View style={chartStyle}>
-              <VictoryChart theme={VictoryTheme.material} domainPadding={10} height={chartSize} width={chartSize} containerComponent={<VictoryContainer responsive={false}/>}>
+              <VictoryChart theme={VictoryTheme.material} domainPadding={10} minDomain={{ y: 0 }} height={chartSize} width={chartSize} containerComponent={<VictoryContainer responsive={false}/>}>
                 <VictoryBar
-                  style={{ data: { fill: "tomato", opacity: 0.5 } }}
                   data={sampleData}
                 />
               </VictoryChart>
