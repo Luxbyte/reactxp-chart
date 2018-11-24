@@ -57,7 +57,7 @@ module.exports = {
   VictoryVoronoiContainer,
   VictoryZoomContainer,
   VictoryAnimation,
-  VictoryBurshLine,
+  VictoryBrushLine,
   VictoryClipContainer,
   VictoryLabel,
   VictoryLegend,
