@@ -1,6 +1,6 @@
 {
   "name": "reactxp-chart",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Plugin for ReactXP that provides support for charts for Web, Android and iOS using Victory Charts",
   "author": "Luxbyte <contact@luxbyte.com>",
   "license": "MIT",
