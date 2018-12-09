@@ -1,5 +1,5 @@
 {
-  "name": "chart-test",
+  "name": "charttest",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -19,10 +19,10 @@
     "webpack": "^3.10.0"
   },
   "dependencies": {
-    "react": "16.2.0",
-    "react-dom": "16.2.0",
-    "react-native": "^0.51.0",
-    "reactxp": "^0.51.1",
-    "reactxp-chart": "^0.0.3"
+    "react": "16.6.3",
+    "react-dom": "16.6.3",
+    "react-native": "^0.57.7",
+    "reactxp": "^1.5.0",
+    "reactxp-chart": "^0.0.4"
   }
 }

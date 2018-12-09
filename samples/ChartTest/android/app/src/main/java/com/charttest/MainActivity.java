@@ -1,4 +1,4 @@
-package com.rxpcharttest;
+package com.charttest;
 
 import com.facebook.react.ReactActivity;
 

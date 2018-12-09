@@ -1,4 +1,4 @@
-package com.rxpcharttest;
+package com.charttest;
 
 import android.app.Application;
 
@@ -26,6 +26,11 @@ public class MainApplication extends Application implements ReactApplication {
           new MainReactPackage(),
           new SvgPackage()
       );
+    }
+
+    @Override
+    protected String getJSMainModuleName() {
+      return "index";
     }
   };
 
