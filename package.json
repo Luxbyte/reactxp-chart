@@ -6,7 +6,8 @@
   "license": "MIT",
   "dependencies": {
     "victory": "^31.0.1",
-    "victory-native": "31.0.x"
+    "victory-native": "31.0.x",
+    "react-native-svg": "^6.5.0"
   },
   "peerDependencies": {
     "react-native": "^0.57.7",
