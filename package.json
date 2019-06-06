@@ -1,17 +1,17 @@
 {
   "name": "reactxp-chart",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Plugin for ReactXP that provides support for charts for Web, Android and iOS using Victory Charts",
   "author": "Luxbyte <contact@luxbyte.com>",
   "license": "MIT",
   "dependencies": {
-    "victory": "^31.0.1",
-    "victory-native": "31.0.x",
-    "react-native-svg": "^6.5.0"
+    "victory": "^31.3.0",
+    "victory-native": "31.0.x"
   },
   "peerDependencies": {
-    "react-native": "^0.57.7",
+    "react-native": "^0.59.9",
     "react-dom": "16.6.3",
-    "react": "16.6.3"
+    "react": "16.6.3",
+    "react-native-svg": "^6.5.0"
   }
 }
