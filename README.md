@@ -1,6 +1,11 @@
 # reactxp-chart [![npm version](https://img.shields.io/npm/v/reactxp-chart.svg?style=flat)](https://www.npmjs.com/package/reactxp-chart)
 Plugin for [ReactXP](https://microsoft.github.io/reactxp/) that provides support for charts for Web, Android and iOS using [Victory Charts](https://github.com/FormidableLabs/victory-chart).
 
+## Installation
+```
+npm install --save reactxp-chart
+```
+
 ## Updates (Version 0.0.6)
 * Updated dependencies
 
