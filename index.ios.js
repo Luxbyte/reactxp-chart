@@ -34,6 +34,13 @@ var {
   VictoryTransition
 } = require('victory-native');
 
+// fix material theme for ios
+import materialTheme from "./VictoryThemeMaterialIos";
+VictoryTheme = {
+  ...VictoryTheme,
+  material: materialTheme
+}
+
 module.exports = {
   VictoryArea,
   VictoryAxis,
