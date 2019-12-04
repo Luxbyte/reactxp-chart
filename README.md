@@ -6,14 +6,15 @@ Plugin for [ReactXP](https://microsoft.github.io/reactxp/) that provides support
 npm install --save reactxp-chart
 ```
 
-## Updates (Version 0.1.3)
+## Updates 
+### Version 0.1.3
 * Migrated to react-native 0.61.5
 * Updated dependencies
 
-## Updates (Version 0.0.6)
+### Version 0.0.6
 * Updated dependencies
 
-## Updates (Version 0.0.3)
+### Version 0.0.3
 * Fixed android gradlew permissions
 * Added VictoryBrushLine
 * Added VictoryBoxPlot
